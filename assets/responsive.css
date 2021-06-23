@@ -1,0 +1,38 @@
+@media (max-width : 769px) and (min-width: 740px){
+    #header{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        z-index: 4;
+    }
+    #right{
+        display: none;
+    }
+    #left{
+        width: 100%;
+        margin-left: 0px;
+        display: inline-block;
+    }
+}
+@media (max-width: 739px){
+    #header{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        z-index: 4;
+    }
+    #right{
+        display: none;
+        width: 250px;
+    }
+    #left{
+        width: 100%;
+        margin-left: 0px;
+        display: inline-block;
+        
+    }
+    .col{
+        width: 100%;
+    }
+
+}

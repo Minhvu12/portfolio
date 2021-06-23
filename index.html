@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINHVU</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+<body>
+    <main>
+        <header id="header">
+            <div class="headerleft"><a href="https://www.facebook.com/profile.php?id=100012694277980">DUCMINH</a></div>
+            <div class="headerright" id="hr"><div class="ti-menu"></div></div>
+        </header>
+        <div id="right">
+            <div class="right_top">
+                <a href="https://www.facebook.com/profile.php?id=100012694277980">DUCMINH</a>
+            </div>
+            <div class="right_bottom">
+                <ul>
+                    <li><a href="#PORTFOLIO" class="rba">PORTFOLIO</a></li>
+                    <li><a href="#ABOUTME" class="rba">ABOUT ME</a></li>
+                    <li><a href="#CONTACT" class="rba">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="left">
+            <div id="PORTFOLIO">
+                <div class="image">
+                        <div class="col col1"><img src="./assets/img/japan.jpg" alt=""></div>
+                        <div class="col col2"><img src="./assets/img/japan copy.jpg" alt=""></div>
+                        <div class="col col3"><img src="./assets/img/japan copy1.jpg" alt=""></div>
+                        <div class="col col4"><img src="./assets/img/japan copy2.jpg" alt=""></div>
+                        <div class="col col5"><img src="./assets/img/japan copy3.jpg" alt=""></div>
+                        <div class="col col6"><img src="./assets/img/japan copy4.jpg" alt=""></div>
+                        <div class="col col7"><img src="./assets/img/japan copy5.jpg" alt=""></div>
+                        <div class="col col8"><img src="./assets/img/japan copy6.jpg" alt=""></div>
+                        <div class="col col9"><img src="./assets/img/japan copy7.jpg" alt=""></div>
+                </div>
+                <div class="imagesub">
+                    <a href="#"><</a>
+                    <a href="#PORTFOLIO" style="background-color: rgb(206, 206, 206);">1</a>
+                    <a href="#PORTFOLIO">2</a>
+                    <a href="#PORTFOLIO">3</a>
+                    <a href="#PORTFOLIO">4</a>
+                    <a href="#">></a>
+                </div>
+            </div>
+            <div id="ABOUTME">
+                <div class="AB">
+                    <h1 class="abh">ABOUT ME</h1>
+                    <div class="abimg"><img src="./assets/img/Collage Illustrations 3.jpg" alt=""></div>
+                    <div class="abif">
+                        <h3 class="ifname">MINH</h3>
+                        <div class="ifsubname">Un texte sur moi. J'aime prendre des photos de gens. Je suis lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                        <div class="ifmail">MAIL: xxxducminhxxx@gmail.com</div>
+                        <div class="iftel">TEL: 0377......</div>
+                    </div>
+                    <div class="abtech">TECHNICAL SKILLS</div>
+                    <div class="abt_content">
+                        <div class="abtc_head">Web Design</div>
+                        <div class="abtc_subhead">
+                            <div class="certent ct1">50%</div>
+                        </div>
+                    </div>
+                    <div class="abt_content">
+                        <div class="abtc_head">Photoshop</div>
+                        <div class="abtc_subhead">
+                            <div class="certent ct2">35%</div>
+                        </div>
+                    </div>
+                    <div class="abt_content">
+                        <div class="abtc_head">Web Developing</div>
+                        <div class="abtc_subhead">
+                            <div class="certent ct3">30%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="CONTACT">
+                <div class="AB">
+                    <div class="ct_heading">CONTACT ME</div>
+                    <div class="ct_subhead">Do you want me to support you? Fill out the form and fill me in with the details :) I love meeting new people!</div>
+                    <form action="">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Message" required>
+                        <input type="submit" value="SEND" id="end">
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="headfoot"></div>
+                <div class="endfoot">Powered by <a href="https://www.facebook.com/profile.php?id=100012694277980">MINH VU</a></div>
+            </footer>
+        </div>
+    </main>
+    <script>
+        var header = document.getElementById('right');
+        var mobile = document.getElementById('hr');
+        mobile.onclick = function() {
+            var isclose = header.style.display === "none";
+            if (isclose) {
+                header.style.display = "inline-block";
+            }
+            else{
+                header.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
